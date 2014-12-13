@@ -1,5 +1,5 @@
 CC=gcc
-LEX=lex
+LEX=flex
 YACC=yacc -d
 CFLAGS= -02 -Wall
 LDFLAGS= -ly -ll # Linux: -lfl / OSX: -ll
